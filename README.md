@@ -23,7 +23,7 @@ App deployment will be done on the IBM Bluemix platform which offers access Wats
 ## Toolbox
 - MacBook Pro
 - Mac OS Sierra
-- R & RStudio
-- Python & Atom
+- Python, Atom & Terminal
+- Pandas, Numpy, Seaborn & Scikit-Learn
+- Watson Conversation
 - Flask, SocketIO, Watson Developer Cloud
-- Watson Conversation, DashDB
