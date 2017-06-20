@@ -1,4 +1,4 @@
-# Union: Cognitive Banking
+# Cognitive Banking
 The purpose of this project is to build artificial intelligent solutions to improve customer experience.
 
 ## Overview
