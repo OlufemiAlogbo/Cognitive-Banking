@@ -13,9 +13,9 @@ The entrant of cloud and cognitive computing technologies into the Nigerian tech
 Project timeline is set to three months and will be collaborative effort from various stakeholders.
 
 ### Stakeholders
-- Union: Core Banking Expert, Customer Relationship Agent, Content Strategist for Digital Channels, Product Manager
+- Business: Core Banking Expert, Customer Relationship Agent, Content Strategist for Digital Channels, Product Manager
 
-- Josla: Project Manager, Data scientist, UX Designer, Software Engineer
+- Technical: Project Manager, Data scientist, UX Designer, Software Engineer
 
 ## Constraint
 App deployment will be done on the IBM Bluemix platform which offers access Watson (IBM AI) services.
