@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+
+<div class="container text-center">
+  <h1>Customer Sentiment Analysis</h1>
+  <div class="row">
+    <div class="col-md-4">
+      <h1>Positive</h1>
+      <h2>{{ Stat[0]}}</h2>
+    </div>
+    <div class="col-md-4">
+      <h1>Neutral</h1>
+      <h2>{{ Stat[2]}}</h2>
+    </div>
+    <div class="col-md-4">
+      <h1>Negative</h1>
+      <h2>{{ Stat[1]}}</h2>
+    </div>
+  </div>
+  <div class="row text-left">
+    <div class="col-md-6">
+      {% for i in range(5) %}
+        <p>{{ ptweets[i]["text"] }}</p>
+      {% endfor %}
+    </div>
+    <div class="col-md-6">
+      {% for i in range(5) %}
+        <p>{{ ntweets[i]["text"] }}</p>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
